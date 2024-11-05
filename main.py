@@ -12,5 +12,5 @@ def main():
 if __name__ == "__main__":
     app.debug = True
     app.host='0.0.0.0'
-    app.port=int(os.environ.get('PORT', 808'0))
+    app.port=int(os.environ.get('PORT', 8080))
     app.run()
